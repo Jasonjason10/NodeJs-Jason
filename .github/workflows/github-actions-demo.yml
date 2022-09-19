@@ -4,4 +4,6 @@ jobs:
  Explore-GitHub-Actions:
    runs-on: ubuntu-latest
    steps:
+      - run: npm ci 
+      - run: npm test
       - run: echo "🎉 Good job!"
