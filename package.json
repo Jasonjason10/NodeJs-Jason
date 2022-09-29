@@ -2,7 +2,7 @@
   "name": "nodejs-jason",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+     "main": "app.js",
   "scripts": {
     "test": "jest",
     "testc": "jest --coverage"
