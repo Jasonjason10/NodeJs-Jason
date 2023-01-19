@@ -8,6 +8,26 @@ app.use(express.static("public"));
 app.get('/', (req, res) => {
   res.sendFile('index.html', {root: "public"})
 })
+app.use(express.static("public"));
+
+app.get('/', (req, res) => {
+  res.sendFile('index.html', {root: "public"})
+})
+app.use(express.static("public"));
+
+app.get('/', (req, res) => {
+  res.sendFile('index.html', {root: "public"})
+})
+app.use(express.static("public"));
+
+app.get('/', (req, res) => {
+  res.sendFile('index.html', {root: "public"})
+})
+app.use(express.static("public"));
+
+app.get('/', (req, res) => {
+  res.sendFile('index.html', {root: "public"})
+})
 
 app.listen(port, () => {
   console.log('Example app listening on port ${port}')
