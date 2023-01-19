@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Jasonjason10/NodeJs-Jason#readme",
   "dependencies": {
+    "eslint": "^8.32.0",
     "express": "^4.18.1"
   },
   "devDependencies": {

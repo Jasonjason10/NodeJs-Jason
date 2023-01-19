@@ -9,3 +9,5 @@ jobs:
       - run: npm ci 
       - run: npm test
       - run: echo "🎉 Good job!"
+      - name: Lint Action
+        uses: wearerequired/lint-action@v2.3.0
