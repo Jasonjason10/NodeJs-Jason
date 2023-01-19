@@ -11,5 +11,5 @@ jobs:
       - run: echo "🎉 Good job!"
       - name: Lint Action
         uses: wearerequired/lint-action@v2.3.0
-         with:
-           eslint: true
+        with:
+          eslint: true
